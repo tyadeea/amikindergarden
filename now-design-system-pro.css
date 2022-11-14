@@ -22058,7 +22058,13 @@ hr.horizontal {
   position: absolute;
   background-size: cover;
   background-position: 50%;
+  max-width:480px ;
+
+    display: flex !important;
+    height: 200px !important;
+    width: 100% !important;
 }
+
 
 .page-header-image-top {
   top: 25%;
