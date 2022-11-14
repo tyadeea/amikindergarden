@@ -81,6 +81,9 @@
     width: 100% !important;
 }
 
+
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -22058,17 +22061,20 @@ hr.horizontal {
   position: absolute;
   background-size: cover;
   background-position: 50%;
-  max-width:480px ;
 
+}
+
+.page-header-image-top {
+  top: 25%;
+}
+
+@media(max-width:480px) {
+.header-img  {
     display: flex !important;
     height: 200px !important;
     width: 100% !important;
 }
 
-
-.page-header-image-top {
-  top: 25%;
-}
 
 @media (min-width: 992px) {
   .virtual-reality .sidenav {
