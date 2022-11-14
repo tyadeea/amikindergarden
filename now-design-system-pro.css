@@ -74,6 +74,16 @@
   }
 }
 
+@media (max-width:480px) {
+.page-header min-vh-85 {
+    display: flex !important;
+    height: 200px !important;
+    width: 100% !important;
+}
+
+
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
