@@ -75,7 +75,7 @@
 }
 
 @media (max-width:480px) {
-.page-header min-vh-85 {
+.header-img {
     display: flex !important;
     height: 200px !important;
     width: 100% !important;
