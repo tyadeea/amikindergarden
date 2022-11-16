@@ -74,11 +74,12 @@
   }
 }
 
-@media (max-width:480px) {
-.header-img {
+@media(max-width:480px) {
+.header-img { 
     display: flex !important;
     height: 200px !important;
-    width: 100% !important;
+    width: 100% !important; 
+  }
 }
 
 
@@ -96,6 +97,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 hr {
   margin: 1rem 0;
@@ -22066,6 +22068,8 @@ hr.horizontal {
 .page-header-image-top {
   top: 25%;
 }
+
+
 
 @media (min-width: 992px) {
   .virtual-reality .sidenav {
